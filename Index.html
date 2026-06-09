@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Delhi Cottons | Ethnic Wear Boutique</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            Delhi Cottons
+        </div>
+
+
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+
+        <div class="menu">
+            ☰
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<section class="hero" id="home">
+
+
+<div class="hero-text">
+
+<h1>
+Premium Cotton Ethnic Wear
+</h1>
+
+<p>
+Elegant kurta sets, Jaipuri cotton suits and everyday fashion crafted for comfort.
+</p>
+
+
+<div>
+
+<a href="#collections" class="btn">
+View Collection
+</a>
+
+
+<a href="#contact" class="btn outline">
+Visit Store
+</a>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section id="collections">
+
+<h2>Our Collection</h2>
+
+
+<div class="filters">
+
+<button onclick="filterProducts('all')">All</button>
+<button onclick="filterProducts('kurta')">Kurta Sets</button>
+<button onclick="filterProducts('suit')">Cotton Suits</button>
+<button onclick="filterProducts('casual')">Casual Wear</button>
+
+</div>
+
+
+
+<div class="products">
+
+
+<div class="product kurta">
+
+<img src="images/kurta.jpg">
+
+<h3>Floral Kurta Set</h3>
+
+<p>₹1299</p>
+
+<button onclick="openProduct(
+'Floral Kurta Set',
+'Beautiful cotton kurta with dupatta'
+)">
+View Details
+</button>
+
+</div>
+
+
+
+
+
+<div class="product suit">
+
+
+<img src="images/suit.jpg">
+
+<h3>Jaipuri Cotton Suit</h3>
+
+<p>₹1599</p>
+
+
+<button onclick="openProduct(
+'Jaipuri Cotton Suit',
+'Traditional printed cotton suit'
+)">
+View Details
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="product casual">
+
+
+<img src="images/casual.jpg">
+
+<h3>Casual Ethnic Wear</h3>
+
+<p>₹999</p>
+
+
+<button onclick="openProduct(
+'Casual Ethnic Wear',
+'Comfortable everyday fashion'
+)">
+View Details
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- PRODUCT POPUP -->
+
+
+<div class="modal" id="productModal">
+
+
+<div class="modal-box">
+
+<span onclick="closeProduct()">×</span>
+
+
+<h2 id="productTitle"></h2>
+
+<p id="productDesc"></p>
+
+
+<a class="btn"
+href="https://instagram.com/delhi_cottons_nmrk">
+Order on Instagram
+</a>
+
+
+</div>
+
+
+</div>
+<section class="features">
+
+
+<div>
+<h3>
+✓ Premium Fabrics
+</h3>
+</div>
+
+
+<div>
+<h3>
+✓ Latest Designs
+</h3>
+</div>
+
+
+<div>
+<h3>
+✓ Affordable Fashion
+</h3>
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section id="contact">
+
+
+<h2>
+Visit Us
+</h2>
+
+
+<p>
+📍 DAG Colony, Sri Vijaya Puram, Andaman & Nicobar Islands
+</p>
+
+
+<p>
+📞 081309 82981
+</p>
+
+
+<a class="btn" href="#">
+Instagram
+</a>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 Delhi Cottons. All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
